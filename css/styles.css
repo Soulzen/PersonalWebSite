@@ -1,0 +1,142 @@
+/*  TAG SECCTION  */
+
+body {
+	color: #40514e;
+	margin: 0px;
+	text-align: center;
+	font-family: "Merriweather", serif;
+}
+
+h1 {
+	margin: 50px auto 0;
+	font-family: "Allura", cursive;
+	font-size: 8rem;
+	color: #66bfbf;
+}
+
+h2 {
+	font-family: "Montserrat", sans-serif;
+	font-size: 2.5rem;
+	color: #66bfbf;
+}
+
+h3 {
+	font-family: "Montserrat", sans-serif;
+	color: #11999e;
+	font-size: 1.5rem;
+}
+
+a {
+	color: #11999e;
+	margin: 10px;
+	font-family: "Montserrat", sans-serif;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #e4f9f5;
+}
+
+hr {
+	border: none;
+	border-top: 10px dotted grey;
+	width: 5%;
+	margin: 100px auto;
+}
+
+/*  CLASS SECTION  */
+.mountain {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: 0 auto;
+	width: 500px;
+}
+.subtitle {
+	font-weight: normal;
+}
+
+.top-container {
+	background-color: #e4f9f5;
+	padding-top: 100px;
+	height: 90vh;
+	position: relative;
+}
+
+.middle-container {
+}
+
+.bottom-container {
+	background-color: #66bfbf;
+	margin: 50px 0 0 0;
+	padding: 50px 0 20px;
+}
+
+.bottom-cloud {
+	position: absolute;
+	left: 1000px;
+	bottom: 300px;
+}
+
+.top-cloud {
+	position: absolute;
+	right: 900px;
+	top: 50px;
+}
+
+.skill-row {
+	width: 50%;
+	margin: 100px auto;
+	text-align: left;
+	line-height: 2;
+}
+
+.software-dev {
+	width: 25%;
+	float: left;
+	margin-right: 30px;
+}
+
+.miniature-painting {
+	width: 25%;
+	float: right;
+	margin-left: 30px;
+}
+
+.profile {
+	margin: 50px;
+}
+.profile img {
+	width: 10%;
+}
+
+.contact-message {
+	margin: 40px auto 60px;
+}
+
+.copyright {
+	color: #eaf6f6;
+	font-size: 0.75rem;
+	padding: 10px 0;
+}
+
+.footer-link {
+	margin: 10px;
+}
+
+.btn {
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	color: #ffffff;
+	font-family: "Montserrat", sans-serif;
+	font-size: 20px;
+	font-weight: 100;
+	padding: 20px;
+	background-color: #66bfbf;
+	text-decoration: none;
+	display: inline-block;
+	cursor: pointer;
+	text-align: center;
+}
